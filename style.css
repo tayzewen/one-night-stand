@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Marlboro";
+  src: url(Marlboro.ttf);
+}
+
+@font-face {
+  font-family: "King";
+  src: url(kingsbridge\ bk.ttf);
+}
+
 body {
     background: url(images/onenight-bg2.jpg);
 }
@@ -8,7 +18,23 @@ header {
 }
 
 h3 {
-    color: whitesmoke;
+    color: #F9F6EE;
+    font-family: "Marlboro";
+}
+
+
+h5 {
+  font-family: "King";
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #C9C9C4;
+}
+
+p {
+  font-family: "King";
+  font-size: 14px;
+  color: #C9C9C4;
 }
 
 .navbar {
@@ -23,10 +49,9 @@ h3 {
     margin-left: 16px;
 }
 .main {
-    background-color: black;
-    color: whitesmoke;
+    background-color: #1e1e1e;
     width: 90%;
-    padding: 1em;
+    padding: .7em;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1em;
@@ -34,6 +59,9 @@ h3 {
 
 form {
     margin: 1em 0 1em;
+    font-family: "King";
+    font-size: 14px;
+    color: #C9C9C4;
 }
 
 label {
