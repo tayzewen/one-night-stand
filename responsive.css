@@ -1,0 +1,134 @@
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .main {
+        padding: 2em;
+        text-align: center;
+        width: 70%;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    #googleMap {
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    label {
+        width: 300px;
+      }
+      
+      #email, #name {
+        width: 300px;
+      }
+      
+      textarea {
+        width: 300px;
+      }
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .main {
+        padding: 2em;
+        text-align: center;
+        width: 70%;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    #googleMap {
+        width: 100%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    label {
+        width: 400px;
+    }
+      
+    #email, #name {
+        width: 400px;
+    }
+      
+    textarea {
+        width: 400px;
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .main {
+        padding: 2em;
+        text-align: center;
+        width: 70%;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    #googleMap {
+        width: 60%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    label {
+        width: 500px;
+      }
+      
+      #email, #name {
+        width: 400px;
+      }
+      
+      textarea {
+        width: 500px;
+      }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .main {
+        padding: 2em;
+        text-align: center;
+        width: 70%;
+    }
+
+    h3 {
+        font-size: 2.5em;
+    }
+
+    #googleMap {
+        width: 70%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    label {
+        width: 500px;
+      }
+      
+      #email, #name {
+        width: 400px;
+      }
+      
+      textarea {
+        width: 500px;
+      }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    
+}
