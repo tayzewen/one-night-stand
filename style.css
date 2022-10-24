@@ -49,6 +49,11 @@ p {
   margin-left: 16px;
 }
 
+.nav-item {
+  font-family: "Marlboro";
+  font-size: 1.5em;
+}
+
 .main {
   background-color: #131313;
   width: 90%;
@@ -115,4 +120,11 @@ textarea {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+footer {
+  font-family: "King";
+  text-align: center;
+  color: #C9C9C4;
+  padding: 2em;
 }
