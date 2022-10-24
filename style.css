@@ -1,0 +1,83 @@
+body {
+    background: url(images/onenight-bg2.jpg);
+}
+
+header {
+    text-align: center;
+    padding: .5em 0 1em;
+}
+
+h3 {
+    color: whitesmoke;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-brand {
+    margin-left: 16px;
+}
+.main {
+    background-color: black;
+    color: whitesmoke;
+    width: 90%;
+    padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+}
+
+form {
+    margin: 1em 0 1em;
+}
+
+label {
+    width: 300px;
+}
+
+#email, #name {
+    float: right;
+    width: 200px;
+}
+
+textarea {
+    width: 300px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
